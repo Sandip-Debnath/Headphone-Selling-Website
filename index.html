@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphone Shop Website</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<!--Font awsome cdn-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--JS Script-->
+<script src="script.js" defer></script>
+
+<body>
+    <!--header section starts here-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="Assets/logo2.png" alt="logo" id="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="Assets/6.jpg" alt="">
+                <div class="content">
+                    <h3>Cart item 01</h3>
+                    <div class="price">Rs.1999/-</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="Assets/12.jpg" alt="">
+                <div class="content">
+                    <h3>Cart item 02</h3>
+                    <div class="price">Rs.4299/-</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="Assets/13.jpg" alt="">
+                <div class="content">
+                    <h3>Cart item 03</h3>
+                    <div class="price">Rs.3999/-</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="Assets/10.jpg" alt="">
+                <div class="content">
+                    <h3>Cart item 04</h3>
+                    <div class="price">Rs.4990/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Checkout Now</a>
+        </div>
+    </header>
+    <!--header section ends here-->
+
+    <!--Home section starts here-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Listen to your favorite albums from cool headsets.</h3>
+            <br>
+            <div class="card">
+                <p>Music is a form of art that uses organized sounds in time. It can be a powerful way to express ideas
+                    and feelings, and is a key part of culture.Music is made by combining sounds and tones in an order
+                    to create a composition. It has melody, harmony, rhythm, and tones that can make people feel the
+                    song or instrumental.</p>
+                <a href="#" class="btn">get yours now</a>
+            </div>
+        </div>
+    </section>
+    <!--Home section ends here-->
+
+    <!--About us section starts here-->
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> Us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="Assets/13.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="card">
+                    <h3>What makes our products special?</h3>
+                    <p><i>Discover the next level of audio immersion with our exceptional range of headphones.
+                            Engineered with cutting-edge technology and premium materials, our headphones deliver
+                            unparalleled sound quality and comfort. Whether you're a music enthusiast, a frequent
+                            traveler, or a gaming aficionado, our headphones are designed to exceed your expectations.
+                            Experience crystal-clear highs, deep bass, and immersive surround sound, all housed in a
+                            sleek and stylish design that complements your lifestyle.Stand out from the crowd with
+                            headphones that not only look stunning but also redefine the way you listen. Join our
+                            community of satisfied customers who rave about the superior performance and versatility of
+                            our products. Elevate your audio experience today with our headphones.</i></p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About us section ends here-->
+
+    <!--menu section starts here-->
+    <section class="menu" id="menu">
+        <h1 class="heading">our <span>menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Assets/24.jpg" alt="">
+                <h3>JBL A0984 headset dual </h3>
+                <div class="price">Rs.4,200 <span>Rs.6,000</span></div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Assets/26.jpg" alt="">
+                <h3>SONY Classic headset</h3>
+                <div class="price">Rs.3,500 <span>Rs.4,000</span></div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Assets/27.jpg" alt="">
+                <h3>Frontech RP headset</h3>
+                <div class="price">Rs.2,000 <span>Rs.3,999</span></div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Assets/28.jpg" alt="">
+                <h3>BOAT Rockerz headset</h3>
+                <div class="price">Rs.2,500 <span>Rs.7,000</span></div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Assets/20.jpg" alt="">
+                <h3>AVA 24944 headset (2024)</h3>
+                <div class="price">Rs.2,599 <span>Rs.4,599</span></div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Assets/30.jpg" alt="">
+                <h3>Frontech bass headset</h3>
+                <div class="price">Rs.4,999 <span>Rs.6,000</span></div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Assets/34.jpg" alt="">
+                <h3>SONY 30456 headset</h3>
+                <div class="price">Rs.3,999 <span>Rs.5,000</span></div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Assets/35.jpg" alt="">
+                <h3>Shark Micro headset</h3>
+                <div class="price">Rs.2,599 <span>Rs.8,000</span></div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+    <!--menu section ends here-->
+
+
+    <!--Products section starts here-->
+    <section class="products" id="products">
+        <h1 class="heading"><span>Our</span> Products</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Assets/40.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>JBL soundbox pro</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.4,500 <span>Rs.6,000</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Assets/41.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Boat ATOS Dual</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.14,500 <span>Rs.16,000</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Assets/42.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Zebronics Classic</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.5,500 <span>Rs.7,000</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Assets/43.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Zebronics Jet Pro</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.5,000 <span>Rs.8,000</span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Product section ends here-->
+
+    <!--Review section starts here-->
+    <section class="review" id="review">
+        <h1 class="heading">Customer <span>Reviews</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Assets/quotes.png" alt="">
+                <p>I recently purchased Zebronics Jet Pro, and I'm thoroughly impressed! The sound quality is outstanding—crisp highs and deep, punchy bass. They are also very comfortable to wear for extended periods. Definitely worth the investment</p>
+                <img src="Assets/customer1.jpg" class="user" alt="">
+                <h3>Alfred Joseph</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Assets/quotes.png" alt="">
+                <p>I'm loving my new headphones! The design is sleek and modern, and they deliver exceptional performance. Whether I'm gaming, listening to music, or on calls, the sound clarity is top-notch. Highly recommend these headphones!</p>
+                <img src="Assets/customer2.jpg" class="user" alt="">
+                <h3>Frank Roseman</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Assets/quotes.png" alt="">
+                <p>These headphones have exceeded my expectations. The battery life is impressive—I can go days without charging. Plus, the noise isolation feature works like a charm, blocking out unwanted background noise. A fantastic purchase!</p>
+                <img src="Assets/customer3.jpg" class="user" alt="">
+                <h3>Julia Cara</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!--Review section ends here-->
+        <!-- contact section starts here -->
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>Contact</span> us</h1>
+            <div class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3688.320729516851!2d88.41392499999996!3d22.416950999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDI1JzAxLjAiTiA4OMKwMjQnNTAuMSJF!5e0!3m2!1sen!2sin!4v1714813620243!5m2!1sen!2sin" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <form action="">
+                    <h3>Get in Touch</h3>
+                    <div class="inputBox">
+                        <span class="fas fa-user"></span>
+                        <input type="text" name="" id="" placeholder="name">
+                    </div>
+                    
+                    <div class="inputBox">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" name="" id="" placeholder="email">
+                    </div>
+                    
+                    <div class="inputBox">
+                        <span class="fas fa-phone"></span>
+                        <input type="number" name="" id="" placeholder="mobile">
+                    </div>
+                    <input type="submit" value="Contact Now" class="btn">
+                </form>
+            </div>
+        </section>
+        <!-- contact section ends here -->
+
+        <!-- blogs section starts -->
+        <section class="blogs" id="blogs">
+            <h1 class="heading">our <span>blogs</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="Assets/21.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Amazing Sound Quality</a>
+                        <span>by admin / 4th May, 2024</span>
+                        <p>In the world of headphones, finding the perfect pair can transform your listening experience. Whether you're a music aficionado, a frequent traveler, or someone who needs reliable gear for work, understanding the key features is crucial. Over-ear headphones provide immersive sound and comfort, while on-ear options are compact and portable. For those on the move, lightweight earbuds offer convenience. Consider factors like sound quality, comfort, wireless connectivity, battery life, and noise cancellation to tailor your choice to your needs. By setting a budget and reading reviews, you can make an informed decision. Explore our range of headphones, including top picks Discover your ideal headphones today!</p>
+                        <br>
+                        <br>
+                        <a href="#" class="btn">Read More..</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="Assets/24.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Finding Your Ideal Headphones</a>
+                        <span>by admin / 10th May, 2024</span>
+                        <p>Choosing the perfect headphones depends on your personal preferences and lifestyle. Consider the type of headphones that best suit your needs—whether it's over-ear for immersive sound, on-ear for portability, or earbuds for convenience. Pay attention to features like sound quality, comfort, wireless connectivity, and battery life. Factor in your budget and explore customer reviews to make a well-informed decision. Our diverse selection of headphones caters to different preferences and usage scenarios, ensuring that you can find the ideal pair for your listening pleasure. Browse our range today to discover headphones that complement your lifestyle .</p>
+                        <br><br><br><br><br><br>
+                        <a href="#" class="btn">Read More..</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="Assets/23.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title"> Choosing the Right Headphones for You</a>
+                        <span>by admin / 15th April, 2024</span>
+                        <p>Selecting the ideal headphones involves considering several key factors. Decide on the headphone type that suits your lifestyle—over-ear for immersive sound, on-ear for portability, or earbuds for convenience. Pay attention to sound quality, comfort, and features like wireless connectivity and noise isolation. Factor in your budget and read customer reviews to make an informed choice. Our range of headphones caters to diverse preferences and uses, ensuring there's a perfect pair for everyone. Whether you're seeking headphones for work, travel, or leisure, explore our collection to find the right fit for your audio needs.</p>
+                        <br><br><br><br><br><br><br><br>
+                        <a href="#" class="btn">Read More..</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="Assets/25.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Your Guide to Choosing the Perfect Headphones</a>
+                        <span>by admin / 15th june, 2024</span>
+                        <p>When it comes to selecting headphones, the options can be overwhelming. It's important to consider your specific needs and preferences. Over-ear headphones provide excellent sound quality and comfort, making them ideal for immersive listening experiences at home. On the other hand, earbuds are compact and portable, perfect for those on the move. Wireless connectivity offers convenience, while wired headphones ensure reliability. Consider factors like sound quality, comfort, durability, and budget when making your decision. Explore our diverse range of headphones designed.</p>
+                        <br><br><br><br><br><br><br><br><br>
+                        <a href="#" class="btn">Read More..</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blogs section ends -->
+</body>
+
+</html>
